@@ -1,4 +1,6 @@
 class student:
+    
+    school = "SJCEM"
 
     def __init__(self,m1,m2,m3):
         self.m1 = m1
@@ -7,17 +9,14 @@ class student:
     
     def avg(self):
         return (self.m1 + self.m2 + self.m3)/3
-    
-# Accesor method
-    def get_m1(self):
-        return self.m1
-# Mutator method  
-    def set_m1(self,val):
-        self.m1 = value
-    
+   
+    def schol(cls):
+        return cls.school
     
 s1 = student(10,20,30)
 s2 = student(20,30,40)
 
 print(s1.avg())
 print(s2.avg())
+
+print(s1.schol())
