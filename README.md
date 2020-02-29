@@ -13,10 +13,12 @@ And a Class is like a blueprint of the state and actions that an object can take
 
 For example, in Python, a Person Class might look something like this.
 
->  class Person:
+'''
+class Person:
   def __init__(self, name, age):
     self.name = name
     self.age = age
   
   def get_name(self):
     return self.name
+'''
