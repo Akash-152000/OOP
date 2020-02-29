@@ -9,8 +9,7 @@ class student:
         return (self.m1 + self.m2 + self.m3)/3
     
     
-s1 = student()
-s2 = student()
+s1 = student(10,20,30)
+s2 = student(20,30,40)
 
-s1.avg(10,20,30)
-s2.avg(20,30,40)
+
