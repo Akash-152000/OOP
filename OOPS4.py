@@ -12,4 +12,5 @@ class student:
 s1 = student(10,20,30)
 s2 = student(20,30,40)
 
-
+print(s1.avg())
+print(s2.avg())
