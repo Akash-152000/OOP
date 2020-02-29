@@ -8,6 +8,13 @@ class student:
     def avg(self):
         return (self.m1 + self.m2 + self.m3)/3
     
+# Accesor method
+    def get_m1(self):
+        return self.m1
+# Mutator method  
+    def set_m1(self,val):
+        self.m1 = value
+    
     
 s1 = student(10,20,30)
 s2 = student(20,30,40)
