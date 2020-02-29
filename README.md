@@ -31,3 +31,23 @@ In OOP’s terminology, ***name*** and ***age*** are called the object attribute
 
 You can also call `get_name()` on any Person object to return the name of the person.
 
+We call get_name a method.
+
+And this method, in addition to any other methods that we define, is what determines the object’s actions.
+
+In other words, a Python object has attributes and methods that are defined in the object’s Class.
+
+Here’s how to create a Person object
+
+```
+>>> p = Person('Alice', 22)
+>>> p.get_name()
+'Alice'
+```
+
+
+Object-oriented programming is essentially one way of structuring and designing your code.
+
+However, I want you to understand that it is not the only way, and it is not necessarily the best way.
+
+In order to learn OOP in Python, you need to progress through a few steps.
