@@ -28,3 +28,6 @@ The class declared above describes the state and actions of any ***Person*** obj
 For example, any Person object will have a ***name*** and an ***age***. These two fields are what determines the state of the object.
 
 In OOP’s terminology, ***name*** and ***age*** are called the object attributes.
+
+You can also call `get_name()` on any Person object to return the name of the person.
+
