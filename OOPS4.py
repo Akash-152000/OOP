@@ -10,6 +10,7 @@ class student:
     def avg(self):
         return (self.m1 + self.m2 + self.m3)/3
    
+    @classmethod
     def schol(cls):
         return cls.school
     
