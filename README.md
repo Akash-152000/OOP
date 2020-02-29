@@ -23,8 +23,8 @@ class Person:
     return self.name
 ```
 
-The class declared above describes the state and actions of any **Person** object.
+The class declared above describes the state and actions of any ***Person*** object.
 
-For example, any Person object will have a **name** and an **age**. These two fields are what determines the state of the object.
+For example, any Person object will have a ***name*** and an ***age***. These two fields are what determines the state of the object.
 
-In OOP’s terminology, **name** and **age** are called the object attributes.
+In OOP’s terminology, ***name*** and ***age*** are called the object attributes.
