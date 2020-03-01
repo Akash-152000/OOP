@@ -9,7 +9,7 @@ class parent:
         self.property = 30
         print("parent property is "+str(self.property))
 
-class child(parent):
+class child:
     def child_money(self):
         self.money = 2000
         print("child money is "+str(self.money))
@@ -20,7 +20,7 @@ class child(parent):
         print("child property is "+str(self.property))
         
         
-class grandchild(child):
+class grandchild(parent,child):
     def grandchild_money(self):
         self.money = 2000
         print("grandchild money is " + str(self.money))
