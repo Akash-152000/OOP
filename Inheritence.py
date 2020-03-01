@@ -18,9 +18,22 @@ class child(parent):
     def child_property(self):
         self.property = 40
         print("child property is "+str(self.property))
+        
+        
+class grandchild(child):
+    def grandchild_money(self):
+        self.money = 2000
+        print("grandchild money is " + str(self.money))
 
-child = child()
-child.child_money()
-child.child_property()
-child.par_money()
-child.par_property()
+    def grandchild_property(self):
+        self.property = 40
+        print("grandchild property is " + str(self.property))
+
+
+grandchild = grandchild()
+grandchild.child_money()
+grandchild.child_property()
+grandchild.par_money()
+grandchild.par_property()
+grandchild.grandchild_money()
+grandchild.grandchild_property()
