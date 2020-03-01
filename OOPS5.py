@@ -7,7 +7,7 @@ class student:
         self.lap = self.laptop()
 
     def show(self):
-        return print(self.name,self.roll,self.age)
+        print(self.name,self.roll,self.age)
         self.lap.show()
 
 
@@ -20,7 +20,7 @@ class student:
             self.graphic  = "4gb"
 
         def show(self):
-            return print(self.brand,self.ram,self,graphic)
+            return print(self.brand,self.ram,self.graphic)
 
 
 s1 = student("Akash",74,20)
