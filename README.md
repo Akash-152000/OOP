@@ -48,4 +48,4 @@ Here’s how to create a Person object
 
 Object-oriented programming is essentially one way of structuring and designing your code.
 
-In order to learn OOP in Python, you need to progress through a few steps.
+
